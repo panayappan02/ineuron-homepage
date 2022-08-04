@@ -1,0 +1,18 @@
+.carousel-btn-group {
+  margin-top: 1.6rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-btn-group svg {
+  font-size: 2.6rem;
+  color: rgba(255, 255, 255, 0.46);
+  cursor: pointer;
+  transition: color 650ms;
+}
+
+.carousel-btn-group svg:hover {
+  color: #ffffff;
+}

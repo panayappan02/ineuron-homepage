@@ -1,0 +1,40 @@
+.avengers {
+  padding-top: 10rem;
+}
+
+.a-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fame-img-container.a {
+  width: 14rem;
+  height: 14rem;
+}
+
+.a-name {
+  font-size: 2.4rem;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.46) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.a-role {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--fontNunito);
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.social-icons img {
+  width: 2rem;
+}

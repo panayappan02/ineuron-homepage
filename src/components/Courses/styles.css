@@ -1,0 +1,114 @@
+.courses {
+  padding-top: 10rem;
+}
+
+.select-container {
+  width: 30rem;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  background: var(--gradient-background);
+  margin-top: 2rem;
+  position: relative;
+}
+
+.select-arrow {
+  position: absolute;
+  top: 58%;
+  transform: translateY(-50%);
+  right: 5%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.select-container select {
+  padding: 1rem;
+  width: 100%;
+  background: #212d45;
+  color: #ffffff;
+  font-family: var(--fontNunito);
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-image: linear-gradient(45deg, transparent 50%, #ffffff 50%),
+    linear-gradient(135deg, #ffffff 50%, transparent 50%),
+    linear-gradient(to right, transparent, transparent);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.course-info {
+  margin-top: 5rem;
+}
+
+.course-info h5 {
+  font-size: 2.5rem;
+  background: var(--gradient-background);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.course-info p {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--fontNunito);
+}
+
+.course-carousel-wrapper .hof-card-container {
+  height: 40rem;
+}
+
+.course-img {
+  border-radius: 1rem;
+}
+
+.course-name {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-top: 2rem;
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.46) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.course-instructor {
+  font-size: 1.8rem;
+  font-family: var(--fontNunito);
+  margin-top: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: auto;
+}
+
+.course-rupee {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 860px) {
+  .course-carousel-wrapper .hof-card-container {
+    height: 36rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .select-container {
+    width: 24rem;
+  }
+
+  .select-container select {
+    font-size: 1.4rem;
+  }
+}

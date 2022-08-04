@@ -1,0 +1,23 @@
+.partners {
+  padding-top: 10rem;
+}
+
+.opi-content {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.opi-img-container {
+}
+
+.opi-img {
+  width: 14rem;
+  filter: brightness(0.5);
+  transition: filter 650ms;
+}
+
+.opi-img:hover {
+  filter: brightness(1);
+}

@@ -1,0 +1,112 @@
+.hof {
+  padding-top: 10rem;
+}
+
+.hof-card-wrapper {
+  padding: 1rem;
+}
+
+.hof-card-container {
+  background: #212d45;
+  height: 36rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.fame-img-container {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  position: relative;
+  background: var(--gradient-background);
+}
+.fame-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.fame-name {
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.46) 60.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.6rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.fame-role {
+  background: var(--gradient-background);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-family: var(--fontNunito);
+}
+
+.fame-desc {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 765px) {
+  .hof-card-container {
+    padding: 1rem;
+    padding-left: 1.2rem;
+  }
+  .fame-img-container {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .fame-name {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .hof-card-container {
+    padding: 2rem;
+  }
+  .fame-img-container {
+    width: 12rem;
+    height: 12rem;
+  }
+  .fame-name {
+    font-size: 2.8rem;
+  }
+
+  .fame-role {
+    font-size: 2rem;
+  }
+
+  .fame-desc {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .fame-img-container {
+    width: 10rem;
+    height: 10rem;
+  }
+  .fame-name {
+    font-size: 2.2rem;
+  }
+
+  .fame-role {
+    font-size: 1.6rem;
+  }
+
+  .fame-desc {
+    font-size: 1.8rem;
+  }
+}
